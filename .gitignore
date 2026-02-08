@@ -1,0 +1,26 @@
+# Node.js (portable)
+node-v*/
+downloads/
+
+# npm (portable global prefix)
+npm-global/
+npm-cache/
+.npm/
+npm-debug.log*
+yarn-error.log*
+
+# OpenCode runtime
+.opencode/
+opencode.log
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
