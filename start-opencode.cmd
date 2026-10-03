@@ -62,10 +62,10 @@ call npm config get prefix
 
 REM ====== OPENCODE ======
 if not exist "%NPM_PREFIX%\opencode.cmd" (
-    echo [INFO] Installing opencode-ai...
-    call npm install -g opencode-ai@latest
+    echo [INFO] Installing opencodev2...
+    call npm install -g opencode/cli@2.0.16
     if errorlevel 1 (
-        echo [ERROR] opencode-ai installation failed
+        echo [ERROR] opencodev2 installation failed
         pause
         exit /b 1
     )
