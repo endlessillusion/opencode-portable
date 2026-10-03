@@ -4,7 +4,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 echo === OpenCode Portable Bootstrap ===
 
 REM ====== CONFIG ======
-set NODE_VERSION=22.18.0
+set NODE_VERSION=22.23.3
 set NODE_DIST=node-v%NODE_VERSION%-win-x64
 set NODE_ZIP=%NODE_DIST%.zip
 set NODE_URL=https://nodejs.org/dist/v%NODE_VERSION%/%NODE_ZIP%
